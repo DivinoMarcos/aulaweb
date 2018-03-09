@@ -1,0 +1,20 @@
+<div class="row carrinho">
+  <div class="col-4">
+    <img src="../../assets/icons/cart-200.png"/>
+  </div>
+  <div class="col-8">
+      <h3>Meu Carrinho</h3>
+
+      <div *ngIf="produtos" >
+        <span>{{produtos.length}} Produtos</span>
+      </div>
+
+      <div *ngIf="!produtos" >
+        <span>Carrinho Vazio</span>
+      </div>
+
+      
+      
+  </div>
+</div>
+

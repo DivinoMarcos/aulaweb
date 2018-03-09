@@ -1,0 +1,10 @@
+.carrinho img{
+    width: 40px;
+    height: auto;
+}
+.carrinho h3 {
+    font-size: 1.1em;
+}
+.carrinho span{
+    font-size: 0.8em;
+}

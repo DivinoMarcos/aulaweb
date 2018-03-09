@@ -1,0 +1,46 @@
+#logo{
+    width: 120px;
+    height: auto;
+}
+
+.destaque{
+    color: #0000ff;
+    font-weight: bold;
+}
+
+/* MENU-HORIZONTAL*/
+.menu-horizontal ul{
+    list-style: none;
+    display: flex;
+}
+.menu-horizontal li {
+    margin: 0 5px 0 5px;
+    padding: 5px 10px 5px 10px;
+    background-color: blue;
+}
+.menu-horizontal li:hover{
+    background-color: rgb(64, 133, 66);
+}
+
+.menu-horizontal a{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 100px;
+    height: 100%;
+    background-color: red;
+}
+
+
+
+/* CORES */
+.bg-verde-musgo{
+    background-color: #4CAF50;
+}
+
+
+/* FLEX BOX */
+.container{
+    display: flex;
+    justify-content: space-between;
+}
