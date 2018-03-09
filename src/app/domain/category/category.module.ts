@@ -4,7 +4,9 @@ import {HttpModule} from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
 // Component
-import {CategoryListComponent} from './category-list/category-list.component'
+import {CategoryListComponent} from './category-list/category-list.component';
+import {CategoryFormComponent} from './category-form/category-form.component';
+import {CategoryViewComponent} from './category-view/category-view.component';
 
 //routing 
 import {CategoryRouting} from './category-routing.module';
@@ -15,7 +17,9 @@ import {CategoryService} from './category.service';
 @NgModule({
     declarations: [
         //Componentes
-        CategoryListComponent
+        CategoryListComponent,
+        CategoryFormComponent,
+        CategoryViewComponent,
 
     ],
     imports: [
@@ -33,4 +37,4 @@ import {CategoryService} from './category.service';
       CategoryService
     ]
   })
-  export class PaisModule { }
+  export class CategoryModule { }

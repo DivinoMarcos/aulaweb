@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 
 // Adicionar o modulo HTTP
 import { HttpModule } from '@angular/http';
+import {AppRoutingModule} from './app.routes';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HttpModule } from '@angular/http';
   imports: [
     BrowserModule,
     HttpModule,
-    RouterModule
+    RouterModule,
+    AppRoutingModule
 
   ],
   providers: [
