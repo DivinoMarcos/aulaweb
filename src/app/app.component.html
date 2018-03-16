@@ -1,53 +1,55 @@
- <!-- TOPO -->
- <div class="container">
-    <div>
-        <img id="logo" src="cart-200.png" alt="Logomarca muito louca.">
+    <!-- TOPO -->
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <img id="logo" src="assets\tardis.jpg" alt="Logomarca.">
+            </div>
+            <div class="col-6">
+                <p class="destaque">tardis</p>    
+            </div>
+        </div>
     </div>
-    <div>
-        <p class="destaque">THE WORLD'S LARGEST WEB DEVELOPER SITE</p>
+
+    <!-- MENU -->
+    <div class="container bg-verde-musgo">
+        <div class="row">
+            <div class="col-8">
+                <ul>
+                <button type="button" class="btn btn-secondary" force-refresh-images="lupa.png" [routerLink]="['category/list']" >categoria-lista</button>
+                
+                </ul>
+
+            </div>
+            <div class="col-4">
+                <ul>
+                    <button type="button" class="btn btn-secondary">help</button>
+                </ul>
+            </div>
+        </div>
     </div>
-</div>
 
-<!-- MENU -->
+    <!-- CONTEUDO -->
+    <div class="container" >
+        <div class="row">
+            <div class="btn-group-vertical col-2">
+                <ul>
+                    <button type="button" class="btn btn-secondary" [routerLink]="['category/list']">categoria</button>
+                
+                </ul> 
+            </div>
+            <div class="col-10">
+                
+                <router-outlet></router-outlet>
 
-
-
-
-<button type="button" class="btn btn-outline-primary">Primary</button>
-<button type="button" class="btn btn-outline-secondary">Secondary</button>
-<button type="button" class="btn btn-outline-success">Success</button>
-<button type="button" class="btn btn-outline-danger">Danger</button>
-<button type="button" class="btn btn-outline-warning">Warning</button>
-<button type="button" class="btn btn-outline-info">Info</button>
-<button type="button" class="btn btn-outline-light">Light</button>
-<button type="button" class="btn btn-outline-dark">Dark</button>
-<ul class="nav flex-column">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#">Disabled</a>
-    </li>
-  </ul>
-
-
-<!-- CONTEUDO -->
-<div class="container">
-    <div>
-        <ul>
-            <li><a href="http:www.google.com">Link 1</a></li>
-            <li><a href="http:www.google.com">Link 1</a></li>
-            <li><a href="http:www.google.com">Link 1</a></li>
-        </ul> 
+            </div>
+        </div>
     </div>
-    <div>
-        <router-outlet></router-outlet>
-    </div>
-</div>
 
+    <!-- RODAPE -->
+    <div class="container">
+        <div class="text-center bg-dark">
+        <p style="color: black">
+            <i>@ Divino Marcos - 2018 </i>
+        </p>
+        </div>
+    </div>

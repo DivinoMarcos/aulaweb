@@ -26,11 +26,7 @@ export class CarrinhoService {
     }
 
     removerProduto(id: number){
-
        this.produtos =  this.produtos.filter(  produto => produto.id !== id);
-
-
-       
        this.carrinhoSubject.next(<Carrinho>{ativo: true , produtos:  this.produtos});
     }
 

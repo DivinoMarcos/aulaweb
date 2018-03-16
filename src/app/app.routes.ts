@@ -5,8 +5,8 @@ const appRoutes: Routes = [
     
     {path: '', redirectTo: '/', pathMatch: 'full'},
     {path: 'category', loadChildren: 'app/domain/category/category.module#CategoryModule'}
-  ];
 
+]
   @NgModule({
     imports: [
       RouterModule.forRoot(

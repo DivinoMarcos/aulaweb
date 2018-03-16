@@ -4,10 +4,9 @@ import {HttpModule} from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
 // Component
-import {CategoryListComponent} from './category-list/category-list.component';
-import {CategoryFormComponent} from './category-form/category-form.component';
-import {CategoryViewComponent} from './category-view/category-view.component';
-
+import {CategoryListComponent} from './category-list/category-list.component'
+import {CategoryFormComponent} from './category-form/category-form.component'
+import {CategoryViewComponent} from './category-view/category-view.component'
 //routing 
 import {CategoryRouting} from './category-routing.module';
 
@@ -19,7 +18,7 @@ import {CategoryService} from './category.service';
         //Componentes
         CategoryListComponent,
         CategoryFormComponent,
-        CategoryViewComponent,
+        CategoryViewComponent
 
     ],
     imports: [
